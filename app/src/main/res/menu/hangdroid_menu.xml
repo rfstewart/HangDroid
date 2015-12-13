@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_single"
+          android:title="@string/menu_single"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_two"
+          android:title="@string/menu_two"
+          android:orderInCategory="200"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_sms"
+          android:title="@string/menu_sms"
+          android:orderInCategory="300"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_scores"
+          android:title="@string/menu_scores"
+          android:orderInCategory="400"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_exit"
+          android:title="@string/menu_exit"
+          android:orderInCategory="500"
+          app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              tools:context="edu.slcc.rstewart.hangdroid.GameActivity"
+              android:gravity="top|center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv2"
+        android:src="@drawable/hangdroid_0"/>
+
+    <LinearLayout
+        android:id="@+id/gameact"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:id="@+id/tv3"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="40sp"
+            android:textColor="@color/blk"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:id="@+id/tv4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/blk"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:id="@+id/tv5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/blk"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:id="@+id/tv6"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/blk"/>
+  -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/autumngradient"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter guess:"
+            android:id="@+id/tv7"
+            android:textColor="@color/blk"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/wht"
+            android:minWidth="40sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:minHeight="30dp"
+            android:minLines="1"
+            android:enabled="true"
+            android:lines="1"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAllCaps="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s1"
+            android:id="@+id/b4"
+            android:onClick = "makeGuess" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incorrect:"
+            android:id="@+id/tv8"
+            android:enabled="true"
+            android:textColor="@color/autumnText"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:textColor="@color/autumnText"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/home/rstewart/AndroidProjects/HangDroid/app/src/main/res/layout/activity_game.xml -->

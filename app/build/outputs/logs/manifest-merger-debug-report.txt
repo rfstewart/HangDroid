@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:5:5-70
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:5:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:8:22-69
+application
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:10:5-62:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:14:9-40
+activity#edu.slcc.rstewart.hangdroid.SplashScreen
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:21:27-74
+activity#edu.slcc.rstewart.hangdroid.GameActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:25:13-41
+activity#edu.slcc.rstewart.hangdroid.MainActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:29:13-41
+activity#edu.slcc.rstewart.hangdroid.GameOverActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:32:9-35:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:33:13-45
+activity#edu.slcc.rstewart.hangdroid.EnterWordActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:36:9-39:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:38:13-62
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:37:13-46
+activity#edu.slcc.rstewart.hangdroid.ScoresActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:40:9-44:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:42:13-58
+	android:theme
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:41:13-43
+activity#edu.slcc.rstewart.hangdroid.GetSmsActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:45:9-49:20
+	android:label
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:47:13-59
+	android:theme
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:46:13-43
+receiver#edu.slcc.rstewart.hangdroid.IncomingSms
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:51:9-58:20
+	android:enabled
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:52:13-40
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:55:13-57:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:56:17-82
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:56:25-79
+activity#edu.slcc.rstewart.hangdroid.ContactsActivity
+ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:60:9-61:20
+	android:name
+		ADDED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml:60:19-51
+uses-sdk
+INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/rstewart/AndroidProjects/HangDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rstewart/AndroidProjects/HangDroid/app/src/main/AndroidManifest.xml

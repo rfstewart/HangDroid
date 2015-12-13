@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hang-em-up-Droid</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="atta">Attach</string>
+    <string name="gotot">Calendar</string>
+    <string name="newi">New</string>
+    <string name="sear">Search</string>
+    <string name="title_activity_game">Play Hang-em-up-Droid!</string>
+    <string name="s1">Enter</string>
+    <string name="title_activity_enter_word">EnterWordActivity</string>
+    <string name="twoplayers">Two Players</string>
+
+    <string name="submit">Submit</string>
+    <string name="mpinstr">Enter a word for the other player to guess.</string>
+    <string name="title_activity_scores">ScoresActivity</string>
+    <string name="title_activity_get_text">GetTextActivity</string>
+    <string name="title_activity_get_sms">GetSMSActivity</string>
+
+    <!-- menu strings -->
+    <string name="menu_single">Single Player</string>
+    <string name="menu_two">Two Player</string>
+    <string name="menu_sms">Load Text Message</string>
+    <string name="menu_scores">Scores</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- error messages when SMS message is not present -->
+    <string name="smsnotpresent">
+        A word from text message is not available.\n\n
+        A random word has been chosen instead.
+    </string>
+    <string name="smsnotvalid">
+        The word sent by text message is not valid.\n\n
+        A random word has been chosen instead.
+    </string>
+    <string name="smsnotmatched">
+        The word sent by text message was not sent from the selected contact.\n\n
+        A random word has been chosen instead.
+    </string>
+</resources>
